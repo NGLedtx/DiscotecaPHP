@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("https://i.pinimg.com/564x/2e/c3/fa/2ec3fab3ce1fd3685969324bd256a213.jpg");
+    padding: 1px solid black;
+}
+.classH1{
+    display: flex;
+    justify-content: center;
+}
+h1, h2{
+    padding:5px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+figure{
+    text-align: center;
+    margin-bottom: 15px;
+}
+nav{
+    grid-area: nav;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+.home, .book, .song, .film{
+    margin-left: 0px;
+    width: 50px;
+}
+nav ul li a{
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    padding: 9px;
+    border: 1px solid white;
+    background: black;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 60px;
+    text-align: center;
+    border-radius: 15px;
+}
+p{
+    font-family: "Radley", serif;
+    text-align: justify;
+    color: white;
+}
+td, th{
+    padding: .7em;
+    border: 1px solid white;
+    text-align: center;
+}
+th{
+    background-color: rgb(57, 57, 57);
+    color: white;
+}
+td{
+    background-color: black;
+    color: white;
+}
+table{
+    margin-bottom: .5em;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 15px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.divTabela{
+    margin-top: 7vh ;
+    display: grid;
+    place-items: center;
+}
+li{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    list-style-type: none;
+}
+img{
+    padding-top: 10px;
+}
+ul{
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+}
+.redsocial{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.ttk, .insta, .gth, .tel, .gmail{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.menu{
+    border: 1px solid #7b47cf;
+    background-color: #7336d5;
+    border-radius: 25px;
+    padding-top: 0px;
+    padding-right:20px ;
+}
