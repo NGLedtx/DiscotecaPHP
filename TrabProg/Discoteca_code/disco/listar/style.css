@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 7.5em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+.divFiltro {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+.divFiltro .divSearch {
+    display: flex;
+    align-items: center;
+}
+.divButtons{
+    display: flex;
+    justify-content: end;
+    padding-right: 5.5em ;
+}
+.divbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#btn1, #btn2, #btn3{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: large;
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #23D962;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    animation-delay: 0s;
+}
+#btn3:hover, #btn2:hover,#btn1:hover{
+    width: 90px;
+    height: 40px;
+    font-size: 1.5em;
+}
+#btnS{
+    font-family: "Bebas Neue", sans-serif;
+    width: 200px;
+    height: 50px;
+    font-size: 1.3em;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #23D962;
+    color: black;
+
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    animation-delay: 0s;
+}
+#Alinharbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#btnD, #btnE{
+    margin-top: 5px;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    background-color: black;
+    cursor: pointer;
+    border: 1px solid #23D962;
+    margin-left: 10px;
+
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    animation-delay: 0s;
+}
+#btnD:hover, #btnE:hover{
+    font-size: 1.9em;
+}
+#btnS:hover{
+    width: 250px;
+    height: 50px;
+    font-size: 1.5em;
+}
+#filtro{
+    width: 100px;
+    height: 150px;
+    justify-content: end;
+    font-size: medium;
+    color: white;
+}
+label{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: larger;
+    padding-right: 2px;
+}
+#imagemDados{
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+    margin-right:20px ;
+}
+.dado{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados {
+    margin-top: 10px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#search{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: larger;
+    border: 1px solid #23D962;
+    padding-left: 20px ;
+}
+#pesquisar{
+    font-size: 1.7em;
+    border-radius: 10px;
+    border: 1px solid #23D962;
+    background-color: black;
+    cursor: pointer;
+}

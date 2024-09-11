@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 100dvh;
+}
+#imagem{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+
+}
+.container{
+    color: white;
+    font-family: "Bebas Neue",sans-serif;
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}
+form > label{
+    text-align: start;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 4.5em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+.divAlinhar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+#botao, #BtnS{
+    margin-top: 20px;
+    width: 5.5em;
+    height: 2.5em;
+    border-radius: 5px;
+    background-color: #23D962;
+    color: black;
+    font-family:"Bebas Neue", sans-serif ;
+    font-size: 1.5em;
+
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    animation-delay: 0s;
+}
+#botao:hover, #BtnS:hover{
+    font-size: 45px;
+    width: 250px;
+    height: 60px;
+
+}
+.lbl{
+    font-size: 1.5em;
+}
+.input{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 12.5em;
+    border: 3px solid #23D962;
+    height: 2.5em;
+    padding: 10px;
+    font-family:"Bebas Neue", sans-serif ;
+    font-size: larger;
+
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.alinharBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Artista{
+    height:5.5em ;
+}
+#divBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

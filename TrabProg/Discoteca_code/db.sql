@@ -1,0 +1,20 @@
+CREATE TABLE artista (
+        id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE disco (
+        id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    ano INTEGER NOT NULL,
+    imagem VARCHAR(255) NOT NULL,
+    idArtista INTEGER NOT NULL REFERENCES artista(id)
+);
+
+CREATE TABLE emprestimo (
+        id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    idDisco INTEGER NOT NULL REFERENCES disco(id),
+    dataEmprestimo DATE NOT NULL
+);

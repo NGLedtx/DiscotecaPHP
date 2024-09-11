@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100dvh;
+}
+.container{
+    color: white;
+    font-family: "Bebas Neue",sans-serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    color: white;
+    font-size: 1.7em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    padding-right: 20px;
+}
+input{
+    margin-bottom: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid #23D962;
+    border-radius: 5px ;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+#nomeE, #emailE, #dataE, #discoE{
+    user-select: text;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 12.5em;
+    border: 3px solid #23D962;
+    height: 2.5em;
+    padding: 10px;
+    font-family:"Bebas Neue", sans-serif ;
+    font-size: larger;
+}
+#discoE {
+    height: 110px;
+}
+#divSelectDisco{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#btnE, #btnS{
+    width: 5.5em;
+    height: 2.5em;
+    margin-left: 95px;
+    border-radius: 5px;
+    background-color: #23D962;
+    color: black;
+    font-family:"Bebas Neue", sans-serif ;
+    font-size: 1.5em;
+
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    animation-delay: 0s;
+
+}
+#btnE:hover , #btnS:hover{
+    font-size: 45px;
+    width: 250px;
+    height: 60px;
+}
+#btnE{
+    margin-top: 20px;
+}
+
+#dataE{
+    margin-left: 15px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: brightness(100%)  ;
+    background-color: #23D962;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 5.7em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+#btnV{
+    display: flex;
+    justify-content: center;
+}
+#lblbtn{
+    display: flex;
+    align-items: center;
+}
+#divAlinhar{
+    display: flex;
+}
