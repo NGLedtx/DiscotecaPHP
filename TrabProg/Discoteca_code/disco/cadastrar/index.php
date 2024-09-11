@@ -35,7 +35,7 @@
                             </div>
                             <label for="Artista" class="lbl">Artista: </label>
                             <div class="divAlinhar">
-                                <select size="3" class="input" name="artista" id="Artista" required>';
+                                <select class="input" name="artista" id="Artista" required>';
 
                     foreach($artistas as $artista) {
                         echo "<option value='{$artista['id']}'>{$artista['nome']}</option>";

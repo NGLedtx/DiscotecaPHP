@@ -15,7 +15,10 @@
                                     JOIN emprestimo ON emprestimo.idDisco = disco.id");
 
             if($discos->num_rows == 0) {
-                echo "Nenhum disco disponível";
+                echo 'Nenhum disco disponível</form>
+                <a href="../../index.php">
+                    <button>Voltar</button>
+                </a>';
                 die;
             }
 
@@ -27,8 +30,11 @@
 
             echo '<input type="date" name="dataDevolucao">
                     <input type="submit">
-                    </select>';
+                    </select>
+                    </form>
+                    <a href="../../index.php">
+                        <button>Voltar</button>
+                    </a>';
         ?>
-    </form>
 </body>
 </html>

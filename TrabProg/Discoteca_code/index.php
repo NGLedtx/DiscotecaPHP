@@ -38,7 +38,10 @@
                 <button class="button">Cadastrar empréstimo</button>
             </a>
             <a href="emprestimo/listar/">
-            <button class="button">Listar empréstimo</button>
+                <button class="button">Listar empréstimo</button>
+            </a>
+            <a href="emprestimo/devolucao/">
+                <button class="button">Devolver empréstimo</button>
             </a>
         </div>
     </div>

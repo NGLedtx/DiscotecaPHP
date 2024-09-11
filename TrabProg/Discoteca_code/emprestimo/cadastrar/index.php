@@ -39,7 +39,7 @@
                                 <div id = "lblbtn">
                                  <label for="discoE"> Discos Disponíveis: </label>
                                 </div>
-                                <select size="3" name=idDisco" id="discoE">';
+                                <select name="idDisco" id="discoE">';
                            
 
                     foreach($discos as $disco) {

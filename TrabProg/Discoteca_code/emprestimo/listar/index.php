@@ -27,5 +27,8 @@
                     E-mail: {$disco['email']}<br><br>";
         }
     ?>
+    <a href="../../index.php">
+        <button>Voltar</button>
+    </a>
 </body>
 </html>
